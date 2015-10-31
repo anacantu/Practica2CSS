@@ -1,11 +1,21 @@
 * {
 	padding:1px;
 	margin:1px;
+	font-family: sans-serif;
 }
 header {
 	width: 100%;
-	height: 130px;
 	background-color: white;
+}
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+	max-width: 1000px;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.home_banner {
 	border-bottom: 1px solid #949090;
 }
 .nav {
@@ -24,12 +34,10 @@ ul li {
 	display: inline-block;
 }
 .logo {
-	width: ;
-	height: ;
+	width: 300px;
 }
 .logo img {
 	width: 50%;
-	height: 50%;
 }
 .banner_custom {
 	width: 100%;
@@ -37,15 +45,79 @@ ul li {
 	background-color: white;
 }
 .banner_main {
-	width: 90%;
-	height: 130px;
+	width: 100%;
+	height: 90px;
 	background-color: #7D1916;
 	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
 }
 .banner_main p {
 	display: inline-block;
+	color: white;
+	font-family: Helvetica;
+}
+.banner_logo {
+	display: inline-block;
+	float: left;
+	width: 150px;
 }
 .banner_logo img {
-	width: 15%;
-	height: 30%;
+	width: 250px;
+	display: inline-block;
 }
+.banner_event {
+	display: inline-block;
+	font-size: 1rem;
+}
+.banner_tickets{
+	display: inline-block;
+	
+}
+.banner_more{
+	display: inline-block;
+	margin-left: 15px;
+}
+.filter ul li{
+	color:#AEAEAE
+	font-size: 15px;
+}
+
+#video_1{
+	background-image: url("../img/G1.jpg");
+	width: 389px;
+	height: 219px;
+}
+#video_2{
+	background-image: url("../img/G2.jpg");
+	width: 389px;
+	height: 219px;
+}
+#video_3{
+	background-image: url("../img/G3.jpg");
+	width: 389px;
+	height: 219px;
+}
+#video_4{
+	background-image: url("../img/G4.jpg");
+	width: 389px;
+	height: 219px;
+}
+#video_5{
+	background-image: url("../img/G5.jpg");
+	width: 389px;
+	height: 219px;
+}
+.grid_images_speaker {
+	font-family: Helvetica;
+	font-size: 14px;
+	color: white;
+}
+.grid_images_title {
+	font-family: Helvetica;
+	font-size: 24px;
+	color: white;
+	font-weight: bolder;
+
+}
+
