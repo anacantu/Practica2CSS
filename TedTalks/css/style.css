@@ -120,4 +120,70 @@ ul li {
 	font-weight: bolder;
 
 }
-
+.grid_images_description {
+	font-family: Helvetica;
+	font-size: 12px;
+	color: white;
+	
+}
+.playlist_container {
+	border-top: 5px dashed #e4e4ed;
+	border-bottom: 5px dashed #e4e4ed;
+}
+.playlist_heading {
+	display: inline-block;
+}
+.play {
+	float:left;
+	font-family: Helvetica;
+	font-weight: lighter;
+	font-size: 28px;
+}
+.browse {
+	float: right;
+	text-decoration: underline;
+}
+.playlist {
+	width: 160px;
+	display: inline-block;
+}
+#p_1 {
+	background-image: url("../img/P1.jpg");
+	width: 160px;
+	height: 160px;
+}
+#p_2 {
+	background-image: url("../img/P2.jpg");
+	width: 160px;
+	height: 160px;
+}
+#p_3 {
+	background-image: url("../img/P3.jpg");
+	width: 160px;
+	height: 160px;
+}
+#p_4 {
+	background-image: url("../img/P4.jpg");
+	width: 160px;
+	height: 160px;
+}
+#p_5 {
+	background-image: url("../img/P5.jpg");
+	width: 160px;
+	height: 160px;
+}
+#p_6 {
+	background-image: url("../img/P6.jpg");
+	width: 160px;
+	height: 160px;
+}
+.talk_title {
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+}
+.talk_number {
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: lighter;
+}
