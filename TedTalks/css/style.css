@@ -108,6 +108,17 @@ ul li {
 	width: 389px;
 	height: 219px;
 }
+.grid_a {
+	width: inherit;
+}
+.grid_a div {
+	float: left;
+}
+
+.grid2 {
+	display: inline-block;
+	float: right;
+}
 .grid_images_speaker {
 	font-family: Helvetica;
 	font-size: 14px;
@@ -118,6 +129,7 @@ ul li {
 	font-size: 24px;
 	color: white;
 	font-weight: bolder;
+	
 
 }
 .grid_images_description {
@@ -148,35 +160,13 @@ ul li {
 	width: 160px;
 	display: inline-block;
 }
-#p_1 {
-	background-image: url("../img/P1.jpg");
-	width: 160px;
-	height: 160px;
-}
-#p_2 {
-	background-image: url("../img/P2.jpg");
-	width: 160px;
-	height: 160px;
-}
-#p_3 {
-	background-image: url("../img/P3.jpg");
-	width: 160px;
-	height: 160px;
-}
-#p_4 {
-	background-image: url("../img/P4.jpg");
-	width: 160px;
-	height: 160px;
-}
-#p_5 {
-	background-image: url("../img/P5.jpg");
-	width: 160px;
-	height: 160px;
-}
-#p_6 {
-	background-image: url("../img/P6.jpg");
-	width: 160px;
-	height: 160px;
+
+.playlist_img {
+	display: inline-block;
+	width: 155px;
+	height: 200px;
+	vertical-align: top;
+
 }
 .talk_title {
 	font-family: Helvetica;
